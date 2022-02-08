@@ -9,5 +9,20 @@ switch ($operacao) {
     case "+":
         echo $num1+$num2;
     break;
-    case "blue":
+    
+    case "subtração":
+    case "-":
+        echo $num1-$num2;
+    break;
+
+    case "multiplicação":
+    case "*":
+        echo $num1*$num2;
+    break;
+
+    case "divisão":
+    case "/":
+        echo $num1/$num2;
+    break;
+}
 ?>
